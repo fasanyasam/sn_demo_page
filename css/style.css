@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+
+nav{
+    height: 70px;
+}
+#scholar{
+    color:#00A39A;
+}
+main{
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../images/signin_bg.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+form{
+    background-color: white;
+    height: 800%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    align-items: center;
+    padding: 10px 0px 50px 0px;
+}
+
+h1{
+    padding: 20px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid .5px rgb(70, 70, 70);
+}
+
+.forgot{
+        padding-left: 50% ;
+}
+
+.btn{
+    background-color: #00A39A;
+}
+.login{
+    width: 200px;
+}
+
+
+#or{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.line{
+    height: 1px;
+    width: 100px;
+    background-color: rgb(105, 36, 36);
+}
+
+.social_logo{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.social_logo img{
+    width: 24px;
+}
+.btn_signup{
+    background-color: white;
+}
